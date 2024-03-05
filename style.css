@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #00203FFF;
+}
+html body {
+    height: 100%;
+    width: 100%;
+}
+#heading{
+    color: #00203FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADEFD1FF;
+    margin: 20px;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 50px;
+}
+#computer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    height: 300px;
+}
+.optionsName{
+    text-align: center;
+    color:#ADEFD1FF;
+}
+.images{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid black;
+    
+}
+.images:hover{
+    height: 203px;
+    width: 203px;
+    cursor: pointer;
+    border: 5px solid #ADEFD1FF;
+    transition: all ease-in 0.3s;
+}
+#Scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin: auto;
+    background: #ADEFD1FF;
+    width: 30%;
+    margin-top: 100px;
+    border-radius: 70px;
+}
+.score{
+    text-align: center;
+    font-size: 80px;
+    background: #ADEFD1FF;
+    color: #00203FFF;
+}
+.score h3{
+    text-align: center;
+    font-size: 30px;
+    background: #ADEFD1FF;
+    color: #00203FFF;
+}
+#result{
+    text-align: center;
+    width: auto;
+    max-width: 35%;
+    height: 50px;
+    font-size: 30px;
+    background-color: #ADEFD1FF;
+    color: #00203FFF;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
